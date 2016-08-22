@@ -1,0 +1,95 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    font-size: 18px;
+}
+
+.container {
+    margin: auto;
+    padding: 10px;
+    min-width: 300px;
+    max-width: 750px;
+}
+
+.header {
+    padding: 10px;
+    font-size: 100px;
+    text-align: center;
+}
+
+.nav {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.nav a {
+    font-size: 40px;
+}
+
+a {
+    color: purple;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.section {
+    padding: 5px 0px;
+    font-weight: bold;
+    font-size: 40px;
+}
+
+.item {
+    padding: 5px 0px;
+    font-size: 25px;
+    font-weight: 500;
+}
+
+.iframe {
+    width: 80%;
+    margin: auto;
+}
+
+.project-images {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.project-image {
+    transition-duration: 250ms;
+    height: 100px;
+}
+
+.project-image:hover {
+    transition-duration: 250ms;
+    height: 300px;
+}
+
+img {
+    height: 100%;
+}
+
+blockquote.twitter-tweet {
+    width: 100px;
+    height: 100%;
+}
+
+twitterwidget {
+    margin: auto;
+}
+
+
+/*desktop*/
+
+@media screen and (min-width: 1025px) {
+    .nav a {
+        font-size: 20px;
+    }
+    .section {
+        font-size: 25px;
+    }
+    .item {
+        font-size: 20px;
+    }
+}
