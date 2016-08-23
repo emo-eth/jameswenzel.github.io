@@ -40,9 +40,11 @@ a {
 }
 
 .item {
+    font-weight: bold;
     padding: 5px 0px;
     font-size: 25px;
-    font-weight: 500;
+    /*    font-weight: 500;
+*/
 }
 
 .iframe {
@@ -52,11 +54,15 @@ a {
 
 .project-images {
     display: flex;
+    display: -webkit-flex;
+    display: -webkit-flexbox;
+    display: -ms-flexbox;
     flex-wrap: wrap;
     justify-content: space-around;
 }
 
 .project-image {
+    margin: auto;
     transition-duration: 250ms;
     height: 100px;
 }
@@ -67,16 +73,8 @@ a {
 }
 
 img {
+    width: auto;
     height: 100%;
-}
-
-blockquote.twitter-tweet {
-    width: 100px;
-    height: 100%;
-}
-
-twitterwidget {
-    margin: auto;
 }
 
 
